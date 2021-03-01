@@ -34,4 +34,4 @@ jobs:
       - name: installing surge
         run: npm install --global surge
       - name: deploying to surge
-        run: surge ./ projct-1-piaic-panacloud.surge.sh --token ${{secrets:PROJECT_1_SECRET_TOKEN}}
+        run: surge https://projct-1-piaic-panacloud.surge.sh --token ${{secrets:PROJECT_1_SECRET_TOKEN}}
